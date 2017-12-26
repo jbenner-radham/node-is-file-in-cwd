@@ -1,8 +1,41 @@
 {
+  "name": "is-file-in-cwd",
+  "description": "Check if a filename is in the current working directory.",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublishOnly": "trevor",
+    "pretest": "eslint {lib,spec}",
+    "test": "nyc jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/node-is-file-in-cwd.git"
+  },
+  "keywords": [
+    "check",
+    "cwd",
+    "exists",
+    "file",
+    "filename",
+    "process"
+  ],
+  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/node-is-file-in-cwd/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/node-is-file-in-cwd#readme",
   "dependencies": {
     "is-file": "^1.0.0"
   },
   "devDependencies": {
-    "nyc": "^11.4.1"
+    "eslint": "^4.14.0",
+    "jasmine": "^2.8.0",
+    "nyc": "^11.4.1",
+    "trevor": "^2.3.0"
   }
 }
