@@ -9,6 +9,7 @@
   "scripts": {
     "prepublishOnly": "trevor",
     "pretest": "eslint {lib,spec}",
+    "readme": "readme-md > README.md",
     "test": "nyc jasmine"
   },
   "repository": {
@@ -36,6 +37,7 @@
     "eslint": "^4.14.0",
     "jasmine": "^2.8.0",
     "nyc": "^11.4.1",
+    "readme-md-cli": "^0.6.0",
     "trevor": "^2.3.0"
   }
 }
