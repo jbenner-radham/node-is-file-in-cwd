@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "is-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "nyc": "^11.4.1"
+  }
+}
